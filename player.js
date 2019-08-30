@@ -1,5 +1,6 @@
 console.log('player file is loaded');
-require("./tamagotchi.js")
+const { Tamagotchi } = require("./tamagotchi.js")
+//const Tamagotchi = TamagotchiObj.Tamagotchi
 
 
 var player = {
@@ -19,7 +20,8 @@ var player = {
 }; //end player
 
 
-const Pink = new Tamagotchi
+const Pink = new Tamagotchi()
+console.log(Pink)
 
 player.feedTamagotchi(Pink)
 player.medicateTamagotchi(Pink)

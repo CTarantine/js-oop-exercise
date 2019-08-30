@@ -1,8 +1,10 @@
 console.log('player file is loaded');
+require("./tamagotchi.js")
+const tamagotchi = new Tamagotchi("Pink","bunny")
 
 var player = {
   name: "Neo",
-  feedTamagotchi: function(tamagotchi) {
+  feedTamagotchi: function() {
     tamagotchi.foodInTummy++;
     console.log('YUM!!! ' + tamagotchi.name + ' has been fed and now has: ' + tamagotchi.foodInTummy + ' in the tummy');
   },
@@ -15,3 +17,5 @@ var player = {
     console.log(tamagotchi.name + ' got some Zzzzs! Restedness: ' + tamagotchi.restedness);
   }
 }; //end player
+
+console.log(player.feedTamagotchi("Pink"))

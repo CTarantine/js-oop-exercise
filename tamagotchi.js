@@ -33,14 +33,19 @@ let Pink = new Tamagotchi("Pink","bunny")
 let Blue = new Tamagotchi("Blue","puppy")
 
 //test out your Tamagotchies below via console.logs
-console.log("Tamagotchi")
+// console.log("Tamagotchi")
 
-console.log(Pink)
-console.log(Blue)
+// console.log(Pink)
+// console.log(Blue)
 
-console.log(Pink.cry())
-console.log(Blue.cry())
+// console.log(Pink.cry())
+// console.log(Blue.cry())
 
-console.log(Pink.puke())
+// console.log(Pink.puke())
 
-console.log(Pink.yawn())
+// console.log(Pink.yawn())
+
+module.exports = {
+Pink,
+Tamagotchi,
+}

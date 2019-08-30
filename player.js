@@ -20,7 +20,7 @@ var player = {
 }; //end player
 
 
-const Pink = new Tamagotchi()
+const Pink = new Tamagotchi("Pink","bunny")
 console.log(Pink)
 
 player.feedTamagotchi(Pink)

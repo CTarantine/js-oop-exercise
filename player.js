@@ -1,6 +1,5 @@
 console.log('player file is loaded');
-require("./tamagotchi.js")
-const tamagotchi = new Tamagotchi("Pink","bunny")
+
 
 var player = {
   name: "Neo",
@@ -19,3 +18,6 @@ var player = {
 }; //end player
 
 console.log(player.feedTamagotchi("Pink"))
+
+const pink = new Tamagotchi("Pink","bunny")
+player.medicateTamagotchi(pink)

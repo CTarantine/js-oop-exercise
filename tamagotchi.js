@@ -44,8 +44,3 @@ let Blue = new Tamagotchi("Blue","puppy")
 // console.log(Pink.puke())
 
 // console.log(Pink.yawn())
-
-module.exports = {
-Pink,
-Tamagotchi,
-}
